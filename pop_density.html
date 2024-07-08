@@ -97,8 +97,9 @@
     });
 
     async function geojsonFetch() {
-      let response = await fetch('assets/stateData.geojson');
-      let stateData = await response.json();
+      let response = await fetch('assets/state_data.geojson');
+      let state_data = await response.json();
+
       map.on('load', function loadingData() {
         map.addSource('state_data', {
           type: 'geojson',
