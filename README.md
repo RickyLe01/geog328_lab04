@@ -11,8 +11,8 @@ This project is an interactive web map showing COVID-19 case rates across counti
 
 ## Technologies Used
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 - Mapbox GL JS (v2.5.0)
 
